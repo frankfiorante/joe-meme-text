@@ -12,7 +12,5 @@ function joeText() {
     }
     
     outputstring = outputstring.toUpperCase().trim() + ".";
-    
-    alert(outputstring);
     document.getElementById('translate').value = outputstring;
 }
